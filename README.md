@@ -46,7 +46,8 @@ You can then reuse these images for your own purpose (document, video incrustati
   
 3. Open a command prompt (or Bash or PowerShell) and run this command: python ./fg_sequencer.py name_of_your_file.json scale
 
-   For example: python ./fg_sequencer.py my_fav_combos.json 100
+   For example: _python ./fg_sequencer.py my_fav_combos.json 100_
+   
    Your input file my_fav_combos.json will be processed and the output images will be scale to their original size. If you want to make them smaller, use a smaller number (must be an integer ranging from 10 to 100).
    
 5. Your images will be generated in a subfolder named with the date and time.
