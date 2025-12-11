@@ -1,0 +1,30 @@
+[
+    {
+        "game": "MVC2",
+        "type": "MVC2",
+        "character": "Psylocke",
+        "sequence": "LP xx A1 xx MP, 6+HK xx 236 HK xx 236 LK",
+        "comment": "Psylocke meterless BnB 01"
+    },
+    {
+        "game": "SF6",
+        "type": "sf",
+        "character": "Ryu",
+        "sequence": "2 MK xx 236 K+K, 4 HK xx 623 HP xx 236 236 P",
+        "comment": "Not optimal"
+    },
+	{
+        "game": "2XKO",
+        "type": "2XKO",
+        "character": "VI",
+        "sequence": "M xx H xx H xx S1,L xx M xx H xx H",
+        "comment": "VI meterless corner carry BnB"
+    },
+	{
+        "game": "Remove anything above and start your own thing",
+        "type": "choose between sf, MVC2 or 2XKO",
+        "character": "Who's your main?",
+        "sequence": "Use classic or numpad notations, follow the readme on the Github page",
+        "comment": "Whatever you feel like writing"
+    }
+]
