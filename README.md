@@ -41,13 +41,23 @@ You can then reuse these images for your own purpose (document, video incrustati
 
 # How to use
 1. Go the folder where you downloaded the package.
+   
 2. Create and fill your input file, based on the example.json file provided. Use classic or numpad notations.
-3. Open a command prompt (or Bash or PowerShell) and run this command: python ./fg_sequencer.py name_of_your_file.json
-   For example: python ./fg_sequencer.py my_fav_combos.json
-   Optional: after your input file, you can also enter an additional argument that will be used to scale the output images (must be an integer ranging between 10 and 100).
-4. Your images will be generated in a subfolder named with the date and time.
+  
+3. Open a command prompt (or Bash or PowerShell) and run this command: python ./fg_sequencer.py name_of_your_file.json scale
+
+   For example: python ./fg_sequencer.py my_fav_combos.json 100
+   Your input file my_fav_combos.json will be processed and the output images will be scale to their original size. If you want to make them smaller, use a smaller number (must be an integer ranging from 10 to 100).
+   
+5. Your images will be generated in a subfolder named with the date and time.
 
 # Limitations and flexibility
-By default, the classic notations and numpad notations are registered in the mapping.json file. If you feel like something is missing (or ran into a notation-related issue while attempting to run the script), feel free to edit the mapping file and/or add new icons to suit your needs. HOWEVER, I DO NOT INTEND TO UPDATE THE DEFAULT MAPPING SO PLEASE DO SO AT YOUR OWN DISCRETION.
+By default, the classic notations and numpad notations are registered in the mapping.json file. 
+
+If you feel like something is missing (or ran into a notation-related issue while attempting to run the script), feel free to edit the mapping file and/or add new icons to suit your needs.
+HOWEVER, I DO NOT INTEND TO UPDATE THE DEFAULT MAPPING SO PLEASE DO SO AT YOUR OWN DISCRETION.
+
 Actual limitations to the script custom logic: only the " " (space), "xx" (cancel), "+" (combination) and "," (sequence partitioner or link) are considered as separators when parsing the string. The string for a sequence must be written on a single line in your input json file for the script to parse properly.
+
+
 That's it.
