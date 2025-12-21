@@ -18,10 +18,10 @@ _(the PNG font is transparent)_
 You can then reuse these images for your own purpose (document, video incrustation, quick sharing... etc).
 
 # Key features
-- 🔄 Game‑aware mapping: prioritizes game‑specific icons, with fallback to universal Basic/Advanced Notation.
-- 🖼️ Automatic layout: rows separated by padded grey lines, with scaling options for output size.
-- 📝 Comment blocks: adds readable annotations under each sequence, with dynamic font scaling and line wrapping.
-- 📂 Organized output: images saved in timestamped folders, named by game, character, and entry index.
+- Game‑aware mapping: prioritizes game‑specific icons, with fallback to universal Basic/Advanced Notation.
+- Automatic layout: rows separated by padded grey lines, with scaling options for output size.
+- Comment blocks: adds readable annotations under each sequence, with dynamic font scaling and line wrapping.
+- Organized output: images saved in timestamped folders, named by game, character, and entry index.
 
 # Pre-requisites
 **You need:**
